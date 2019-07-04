@@ -20,7 +20,9 @@
   },
   "scripts": {
     "dev": "cross-env DEV_BUILD=1 nodemon --watch ./src --exec \"yarn prepare\"",
-    "prepare": "node ../../scripts/prepare.js"
+    "prepare": "node ../../scripts/prepare.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "@storybook/addon-actions": "3.4.0-rc.2",
@@ -61,7 +63,8 @@
     "uglifyjs-webpack-plugin": "^1.2.3",
     "util-deprecate": "^1.0.2",
     "webpack": "^3.11.0",
-    "webpack-hot-middleware": "^2.21.2"
+    "webpack-hot-middleware": "^2.21.2",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "nodemon": "^1.17.2"
@@ -71,5 +74,6 @@
     "babel-runtime": ">=6.0.0",
     "react": ">=15.0.0 || ^16.0.0",
     "react-dom": ">=15.0.0 || ^16.0.0"
-  }
+  },
+  "snyk": true
 }
