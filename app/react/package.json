@@ -34,7 +34,7 @@
     "airbnb-js-shims": "^1.4.1",
     "babel-loader": "^7.1.4",
     "babel-plugin-macros": "^2.2.0",
-    "babel-plugin-react-docgen": "^1.8.3",
+    "babel-plugin-react-docgen": "^4.0.0",
     "babel-plugin-transform-regenerator": "^6.26.0",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.6.1",
@@ -60,7 +60,7 @@
     "redux": "^3.7.2",
     "uglifyjs-webpack-plugin": "^1.2.3",
     "util-deprecate": "^1.0.2",
-    "webpack": "^3.11.0",
+    "webpack": "^4.0.0",
     "webpack-hot-middleware": "^2.21.2"
   },
   "devDependencies": {
