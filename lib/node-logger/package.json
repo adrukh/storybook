@@ -9,6 +9,6 @@
     "prepare": "node ../../scripts/prepare.js"
   },
   "dependencies": {
-    "npmlog": "^4.1.2"
+    "npmlog": "^5.0.0"
   }
 }
