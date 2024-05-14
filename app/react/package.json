@@ -28,7 +28,7 @@
     "@storybook/addons": "3.4.0-rc.2",
     "@storybook/channel-postmessage": "3.4.0-rc.2",
     "@storybook/client-logger": "3.4.0-rc.2",
-    "@storybook/core": "3.4.0-rc.2",
+    "@storybook/core": "6.2.0",
     "@storybook/node-logger": "3.4.0-rc.2",
     "@storybook/ui": "3.4.0-rc.2",
     "airbnb-js-shims": "^1.4.1",
@@ -60,7 +60,7 @@
     "redux": "^3.7.2",
     "uglifyjs-webpack-plugin": "^1.2.3",
     "util-deprecate": "^1.0.2",
-    "webpack": "^3.11.0",
+    "webpack": "^5.0.0",
     "webpack-hot-middleware": "^2.21.2"
   },
   "devDependencies": {
