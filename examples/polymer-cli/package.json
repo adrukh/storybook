@@ -14,7 +14,7 @@
     "@storybook/addon-links": "3.4.0-rc.2",
     "@storybook/addon-notes": "3.4.0-rc.2",
     "@storybook/addon-options": "3.4.0-rc.2",
-    "@storybook/addon-storysource": "3.4.0-rc.2",
+    "@storybook/addon-storysource": "7.6.0",
     "@storybook/addon-viewport": "3.4.0-rc.2",
     "@storybook/polymer": "3.4.0-rc.2",
     "@webcomponents/webcomponentsjs": "^1.1.0",
